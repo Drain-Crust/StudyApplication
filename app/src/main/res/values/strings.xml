@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudyApplication</string>
+    <string name="school_name">MRGS</string>
+
+    <string name="email_address_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login in</string>
+
+    <string name="back_button_home_screen">Back</string>
+    <string name="mrgs_logo">mrgs_logo</string>
+</resources>
