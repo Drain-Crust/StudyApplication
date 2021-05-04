@@ -4,8 +4,14 @@
 
     <string name="email_address_hint">Email</string>
     <string name="password_hint">Password</string>
-    <string name="login_button">Login in</string>
+    <string name="login_button">Login</string>
 
     <string name="back_button_home_screen">Back</string>
     <string name="mrgs_logo">mrgs_logo</string>
+
+    <string name="menu_button">menu</string>
+    <string name="task_button">Create</string>
+    <string name="plant_button">Plant</string>
+
+    <string name="progression_button">Progress</string>
 </resources>

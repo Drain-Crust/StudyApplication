@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         Button login_button = (Button) findViewById(R.id.login_button);
         login_button.setTransformationMethod(null);
     }
-    public void toNextPage (View aView){
+    public void toHomeScreen (View aView){
         Intent intent = new Intent(this,HomeScreen.class);
+        startActivity(intent);
     }
 }
