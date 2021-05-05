@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     case "correct":
                         System.out.print("correct password");
                         startActivity(intent);
+                        /*hello*/
                         break;
                     case "incorrect":
                         System.out.println("incorrect password");
