@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.095" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="101dp"
@@ -39,13 +39,13 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/email_address"
+        android:id="@+id/emailAddressText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/email_address_hint"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintBottom_toTopOf="@+id/passwordText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"
         app:layout_constraintVertical_bias="0.076" />
 
     <ImageView
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
         android:contentDescription="@string/mrgs_logo"
-        app:layout_constraintBottom_toTopOf="@+id/email_address"
+        app:layout_constraintBottom_toTopOf="@+id/emailAddressText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
