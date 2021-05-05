@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         login_button.setTransformationMethod(null);
     }
 
-
-
     public void toHomeScreen (View aView){
         Intent intent = new Intent(this,HomeScreen.class);
         EditText email = findViewById(R.id.emailAddressText);
