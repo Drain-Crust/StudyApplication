@@ -1,13 +1,23 @@
 <resources>
-    <string name="app_name">StudyApplication</string>
-    <string name="school_name">MRGS</string>
+    <!-- activity main strings -->
 
-    <string name="email_address_hint">Email</string>
-    <string name="password_hint">Password</string>
-    <string name="login_button">Login</string>
+    <string name="kindess_photo">kindness</string>
+    <string name="login_button">Sign In</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="text_signup">Sign In</string>
+    <string name="password_and_email_hint">Type Here</string>
+    <string name="mrgs_logo">mrgs logo</string>
+    <string name="curved_rectangle_image">rectangle</string>
+    <string name="kindness_image">kindness_image</string>
+
+    <!-- activity main strings -->
+
+
+    <string name="app_name">StudyApplication</string>
 
     <string name="back_button_home_screen">Back</string>
-    <string name="mrgs_logo">mrgs_logo</string>
+
 
     <string name="menu_button">menu</string>
     <string name="task_button">Create</string>
@@ -15,4 +25,7 @@
 
     <string name="progression_button">Progress</string>
     <string name="its_a_plant">its a plant</string>
+
+
+
 </resources>
